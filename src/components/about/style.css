@@ -1,0 +1,78 @@
+.About {
+    color : white;
+    width: 100%;
+    text-align: justify;
+}
+
+.About .AboutMe h2{
+    padding : 0px 70px;
+    font-size: 40px;
+}
+.AboutMe p{
+    padding:  0px 70px ;
+    font-size: 22px;
+    margin-bottom: 150px;
+    
+}
+.blue-text{
+    color : #04fffb;
+}
+
+
+
+.SkillText h2{
+    padding : 0px 70px;
+    font-size: 40px;
+}
+
+.Education{
+    padding: 0px  70px ;
+    font-size: 30px;
+}
+.Education .components{
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    font-size: 18px;
+}
+
+.Education img {
+    width : 60px;
+    height : 60px;
+}
+
+.Footer {
+    border-top: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap : 35px;
+}
+
+
+
+.Footer .Facebook img{
+    padding : 15px;
+    width : 25px;
+    height : 25px;
+    
+}
+
+.Footer .Linkedin img{
+    width : 25px;
+    height : 25px;
+    padding : 15px;
+}
+
+.Footer .Instagram img{
+    width : 25px;
+    height : 25px;
+    padding : 15px;
+}
+
+.test{
+    padding : 1px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,104 @@
+.Element{
+    display : flex;
+    justify-content: center;
+}
+.Skill  .Element img{
+    width : 50px;
+    height : 50px;
+   
+    padding : 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Skill .SkillElement .WebDevelopper .FrontEnd {
+    justify-content: center;
+    display: flexbox;
+    width: 35%; 
+    height : auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow : 0 0 25px #04fffb;
+    border-color: black;
+    
+}
+
+
+
+figcaption {
+    font-size: 14px; /* Chọn kích thước phù hợp với bạn */
+    
+}
+
+.WebDevelopper{
+    display: flex;
+    padding : 30px;
+    justify-content: space-around;
+}
+
+.Skill .SkillElement .WebDevelopper .Backend {
+    justify-content: center;
+    display: flexbox;
+    width: 35%; 
+    height : auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow : 0 0 25px #04fffb;
+    border-color: black;
+}
+
+
+
+.Skill .SkillElement .ToolsAndOther .Tools{
+    justify-content: center;
+    display: flexbox;
+    width: 35%; 
+    height : auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow : 0 0 25px #04fffb;
+    border-color: black;
+}
+
+figcaption {
+    font-size: 14px; /* Chọn kích thước phù hợp với bạn */
+    
+}
+
+.ToolsAndOther{
+    display: flex;
+    padding : 30px;
+    justify-content: space-around;
+}
+
+.Skill .SkillElement .ToolsAndOther .Others {
+    justify-content: center;
+    display: flexbox;
+    width: 35%; 
+    height : auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow : 0 0 25px #04fffb;
+    border-color: black;
+}
+
+.FrontEnd p{
+    font-size : 30px;
+}
+
+.Backend p{
+    font-size: 30px;
+}
+
+.Tools p{
+    font-size : 30px;
+}
+
+.Others p{
+    font-size: 30px;
+}
+

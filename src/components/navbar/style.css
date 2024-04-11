@@ -1,0 +1,149 @@
+.NavContainer {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    color : white;
+    padding : 10px 5%;
+    font-size: 20px;
+   
+
+    
+
+}
+.Nav{
+  display: flex;
+  align-items: center;
+  gap : 500px;
+  background: black;
+  justify-content: center;
+}
+.duk{
+  margin-top: 20px;
+  padding-right : 60px;
+  color : #04fffb;
+  justify-content: center;
+  align-items: center;
+}
+.duk p{
+  padding-left: 100px; /* Đặt khoảng cách 20px xung quanh phần tử */
+  font-size : 30px;  
+  font-style: italic;
+}
+
+.NavContainer .github{
+  margin-top: 20px;
+}
+.NavContainer .github a{
+    width: 80%;    
+    padding: 5px 6px;
+    color : white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    border-color: #04fffb;
+
+}
+
+.NavItems  {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-top: 20px;
+    
+  }
+
+ .NavItems a {
+  
+  padding: 20px 20px;
+  color: white;/* Add !important to ensure higher specificity */
+  text-decoration: none;
+  
+}
+
+.contact-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.contact-links {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+  
+.contact-links a {
+    width: 80px;
+    height : 15px;
+    color: #8f8f8f;
+    text-decoration: none;
+    border: 0.5px solid white;
+    margin-top: 10px;
+
+}
+
+.NavItems .AP{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.NavItems .AP a{
+    --fill-color: #04fffb;
+      position: relative;
+      display: block;
+      padding: 4px 0;
+      font: 500 2rem Raleway, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-text-stroke: 2px var(--fill-color);
+      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+      color: transparent;
+      background-clip: text;
+      transition: 0.5s linear;
+      font-size: 20px;
+
+      &:hover {
+        background-size: 100%;
+      }
+    
+}
+.contact-dropdown span{
+    --fill-color: #04fffb;
+      position: relative;
+      display: block;
+      padding: 4px 10px;
+      font: 500 2rem Raleway, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-text-stroke: 2px var(--fill-color);
+      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+      color: transparent;
+      background-clip: text;
+      transition: 0.5s linear;
+      font-size: 20px;
+
+      &:hover {
+        background-size: 100%;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

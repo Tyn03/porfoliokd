@@ -1,0 +1,154 @@
+.listProject{
+    padding : 0px 10%;
+   
+    
+}
+
+.Project .text {
+    color : white;
+    
+ 
+}
+.blue-text{
+    color : rgba(0,139,255,0.8);
+}
+.text h2{
+    font-size: 30px;
+}
+.text h4{
+    font-style: italic;
+    font-size: 40px; 
+}
+
+.Project .List .P1{
+    color : white;
+}
+.Project .List .P1 .Tools{
+    padding: 0px 10px;
+    margin-right: 10px; 
+}
+
+.Project .List .P1 .Tools a{
+    padding : 0px 10px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-color: black;
+    margin-right: 10px; 
+    background-color: rgba(0,139,255,0.8);
+    
+}
+
+.TextDescribe{
+    color : white;
+    width: 250%;
+    font-size: 20px;
+
+}
+.Website p{
+    color : white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid white; 
+    border-radius: 5px;
+}
+
+
+
+
+
+.PJ2 .Left  .Website a{
+    
+    margin-left: 20px;
+}
+
+.PJ1 .Left  .Website a{
+    
+    margin-left: 20px;
+}
+
+.PJ3 .Left  .Website a{
+    
+    margin-left: 20px;
+}
+
+.PJ4 .Left  .Website a{
+    
+    margin-left: 20px;
+}
+
+
+.PJ3{
+    margin-top: 150px;
+    display: flex;
+    gap : 70px;
+}
+.PJ3 img{
+    width : 50%;
+    height : 350px;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.PJ1{
+    margin-top: 150px;
+    display: flex;
+    gap : 70px;
+}
+.PJ1 img{
+    width : 50%;
+    height : 350px;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.PJ2{
+    margin-top: 150px;
+    display: flex;
+    gap : 70px;
+}
+.PJ2 img{
+    width : 50%;
+    height : 300px;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.PJ4{
+    margin-top: 150px;
+    display: flex;
+    gap : 70px;
+}
+.PJ4 img{
+    width : 50%;
+    height : 300px;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.PJ4 .Left .List .P1 h3{
+    color : red;
+}
+
+.PJ2 .Left .List .P1 h3{
+    color : greenyellow;
+}
+.PJ3 .Left .List .P1 h3{
+    color : greenyellow;
+}
+.PJ1 .Left .List .P1 h3{
+    color : greenyellow;
+}
+
+.hr{
+    border-bottom: 1px solid white;;
+}
+
+.line{
+    margin-top: 50px;
+    border-top: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

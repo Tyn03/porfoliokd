@@ -1,0 +1,89 @@
+.Root .content{
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap : 50px;
+  margin-top: 50px;
+}
+.Root .content img{
+  position: relative;
+    height: 15%;
+    width: 15%;
+    border: 1px solid #04fffb;
+    border-radius: 100%;
+    
+    box-shadow : 0 0 25px #04fffb;
+  }
+  .Root .content .text{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .Root .content .text .name{
+    display :flex;
+    gap : 25px;
+    
+  }
+
+  .Root .content .text .name .it{
+    margin-top: -40px;
+    font-size: 50px;
+    padding : 0px;
+    
+  }
+.Root .content .text .name .kaido{
+  margin-top: -40px;
+    color: #04fffb;
+    font-size: 50px;
+    padding : 0px;
+    
+  }
+  
+  
+  
+.Root .content{
+    display: flex;
+    align-items: center;
+  }
+  .Root .content .text{
+    color : white;
+
+}
+
+.Root .content .TextAnimation{
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    
+}
+
+.Root .content .TextAnimation a{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.Root .content .text .TextAnimation h3{
+  font-size: 30px;
+}
+
+
+.Root .content p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.social{
+  margin-top: -30px;
+  display: flex;
+  gap : 30px;
+  
+}
+.Root .social img{
+  width : 45px;
+  height : 45px;
+}
