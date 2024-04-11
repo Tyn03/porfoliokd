@@ -20,8 +20,8 @@ const Navbar = () => {
                 <div className="NavItems">
                     
                     <div className="AP">
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
+                    <Link to="/porfoliokd/about">About</Link>
+                    <Link to="/porfoliokd/projects">Projects</Link>
                     </div>
                     
                     
