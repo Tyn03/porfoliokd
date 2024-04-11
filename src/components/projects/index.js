@@ -46,7 +46,7 @@ const Skill = () => {
                             <a href= "https://github.com/Tyn03/Kstore" target="_blank">
                                 <p>Source Code</p>    
                             </a>
-                            <a href= "https://antiinsa.github.io/solar-demo/" target="_blank">
+                            <a href= "https://tyn03.github.io/Kstore/" target="_blank">
                                 <p>View Page</p>    
                             </a>
                         </div>
