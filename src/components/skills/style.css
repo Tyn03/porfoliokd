@@ -103,8 +103,68 @@ figcaption {
 }
 
 
+ /* Render for Samsung and Iphone*/
+@media (max-width: 380px){
+    .FrontEnd p{
+        font-size: 20px;
+    }
+    .Backend p{
+        font-size: 20px;
+    }
+    .ToolsAndOther p{
+        font-size: 20px;
+    }
+    .Skill  .Element img{
+        width : 20px;
+        height : 20px;
 
-@media (max-width: 360px){
+    }
+    .SkillItem figcaption{
+        font-size: 10px;
+    }
+    .Backend .Element{
+        display : grid;
+        
+    }
+    .Others .Element{
+        display : grid;
+    }
+    
+}
+
+
+@media (max-width: 500px){
+    .FrontEnd p{
+        font-size: 20px;
+    }
+    .Backend p{
+        font-size: 20px;
+    }
+    .ToolsAndOther p{
+        font-size: 20px;
+    }
+    .Skill  .Element img{
+        width : 20px;
+        height : 20px;
+
+    }
+    .SkillItem figcaption{
+        font-size: 10px;
+    }
+    .Backend .Element{
+        display : grid;
+        
+    }
+    .Others .Element{
+        display : grid;
+    }
+    
+}
+
+
+
+/* Render for Ipad mini*/
+@media (max-width: 900px){
     .FrontEnd p{
         font-size: 20px;
     }

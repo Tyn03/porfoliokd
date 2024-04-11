@@ -87,3 +87,13 @@
     }
     
 }
+
+@media (max-width: 500px){
+    .About .AboutMe p{
+        font-size : 15px;
+    }
+    .Education p{
+        font-size: 12px;
+    }
+    
+}

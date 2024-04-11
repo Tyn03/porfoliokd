@@ -126,7 +126,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .NavContainer {
     display: grid;
     flex-direction: column;
@@ -166,6 +166,111 @@
   }
 
   .NavContainer .github a {
+    width : 10%;
+    /* Adjust padding for smaller screens */
+    font-size: 3vw; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+@media (max-width: 500px) {
+  .NavContainer {
+    display: grid;
+    flex-direction: column;
+    font-size: 5vw;
+    
+   
+  }
+  .Nav{
+    
+    justify-content :flex-start;
+    
+    gap : 1px;
+  }
+  
+  .AP{
+    
+    display : grid;
+    flex-direction: column;
+  }
+  .duk {
+    padding-right: 1vw; /* Adjust padding for smaller screens */
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
+  .duk p{
+    padding-left: 2vw;
+    font-size: 20px;
+  }
+  
+  .NavItems .AP a{
+    font-size: 10px;
+    
+  }
+
+  .NavItems a {
+    
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
+
+  .NavContainer .github a {
+    width : 10%;
+    /* Adjust padding for smaller screens */
+    font-size: 3vw; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .NavContainer {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  font-size: 5vw;
+    
+   
+  }
+  .Nav{
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    
+    gap : 1px;
+  }
+  
+  .AP{
+    
+  display : flex;
+  align-items: center;
+  justify-content: space-between;
+  gap : 10px;
+    
+  }
+  .duk {
+    padding-right: 1vw; /* Adjust padding for smaller screens */
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
+  .duk p{
+    padding-left: 2vw;
+    font-size: 20px;
+  }
+  
+  .NavItems .AP a{
+    font-size: 20px;
+    
+  }
+
+  .NavItems a {
+    
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
+
+  .NavContainer .github a {
+    
     width : 10%;
     /* Adjust padding for smaller screens */
     font-size: 3vw; /* Adjust font size for smaller screens */
