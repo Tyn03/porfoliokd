@@ -24,6 +24,9 @@ const Wrapper = styled.div`
     display: inline-block;
     animation: ${animation} 6s cubic-bezier(0.075, 0.82, 0.165, 1) forwards infinite;
   }
+  @media (max-width: 360px) {
+    font-size: 20px; /* Kích thước font cho thiết bị di động */
+  }
 `;
 
 export default function Root() {

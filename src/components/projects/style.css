@@ -152,3 +152,73 @@
     justify-content: center;
     display: flex;
 }
+
+
+
+@media (max-width: 360px){
+  .TextDescribe,
+  .Website {
+    display: none; /* Ẩn mô tả và liên kết của các dự án khi độ rộng màn hình nhỏ hơn 360px */
+  }
+
+  .PJ3{
+    display : grid;
+  }
+  .Left .List .P1 .Tools{
+    display: none;
+  }
+  .PJ3 img{
+    width: 250px;
+    height : 250px;
+  }
+  .Left .List .P1 h2{
+    margin-top : -30px;
+  }
+
+
+
+  .PJ2{
+    display : grid;
+  }
+  .Left .List .P1 .Tools{
+    display: none;
+  }
+  .PJ2 img{
+    width: 250px;
+    height : 250px;
+  }
+  .Left .List .P1 h2{
+    margin-top : -30px;
+  }
+
+
+
+  .PJ1{
+    display : grid;
+  }
+  .Left .List .P1 .Tools{
+    display: none;
+  }
+  .PJ1 img{
+    width: 250px;
+    height : 250px;
+  }
+  .Left .List .P1 h2{
+    margin-top : -30px;
+  }
+
+
+  .PJ4{
+    display : grid;
+  }
+  .Left .List .P1 .Tools{
+    display: none;
+  }
+  .PJ4 img{
+    width: 250px;
+    height : 250px;
+  }
+  .Left .List .P1 h2{
+    margin-top : -30px;
+  }
+}

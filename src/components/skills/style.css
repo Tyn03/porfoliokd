@@ -102,3 +102,33 @@ figcaption {
     font-size: 30px;
 }
 
+
+
+@media (max-width: 360px){
+    .FrontEnd p{
+        font-size: 20px;
+    }
+    .Backend p{
+        font-size: 20px;
+    }
+    .ToolsAndOther p{
+        font-size: 20px;
+    }
+    .Skill  .Element img{
+        width : 20px;
+        height : 20px;
+
+    }
+    .SkillItem figcaption{
+        font-size: 10px;
+    }
+    .Backend .Element{
+        display : grid;
+        
+    }
+    .Others .Element{
+        display : grid;
+    }
+    
+}
+

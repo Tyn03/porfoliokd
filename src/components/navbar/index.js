@@ -5,7 +5,7 @@ import { Bio } from '../../data/constants';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 const Navbar = () => {
     const [showContact, setShowContact] = useState(false);
-
+    // #04fffb
   const handleContactToggle = () => {
     setShowContact(!showContact);
   };

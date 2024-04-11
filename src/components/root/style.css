@@ -87,3 +87,48 @@
   width : 45px;
   height : 45px;
 }
+
+
+@media (max-width: 360px) {
+
+  
+
+  .Root .content img {
+    height: 30vw; /* Điều chỉnh kích thước ảnh dựa trên viewport width */
+    width: 30vw; /* Điều chỉnh kích thước ảnh dựa trên viewport width */
+    border-width: 0.2vw; /* Điều chỉnh độ dày của viền ảnh dựa trên viewport width */
+    box-shadow: 0 0 5vw #04fffb; /* Điều chỉnh độ rộng của shadow dựa trên viewport width */
+  }
+
+  .Root .content .text .name .it,
+  .Root .content .text .name .kaido {
+    margin-top: 10vw; /* Điều chỉnh margin dựa trên viewport width */
+    margin-bottom: 50px;
+    font-size: 7vw; /* Điều chỉnh kích thước font chữ dựa trên viewport width */
+  }
+
+  .Root .content .TextAnimation {
+    margin-top: -15vw; /* Điều chỉnh margin dựa trên viewport width */
+  }
+  .text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Root .content .TextAnimation a {
+    margin-left: 2vw; /* Điều chỉnh margin dựa trên viewport width */
+    font-size: 5vw; /* Điều chỉnh kích thước font chữ dựa trên viewport width */
+  }
+
+  .Root .content .text .TextAnimation h3 {
+    font-size: 6vw; /* Điều chỉnh kích thước font chữ dựa trên viewport width */
+  }
+
+  .Root .content p {
+    font-size: 5vw; /* Điều chỉnh kích thước font chữ dựa trên viewport width */
+  }
+
+  .Root .social img {
+    width: 10vw; /* Điều chỉnh kích thước ảnh dựa trên viewport width */
+    height: 10vw; /* Điều chỉnh kích thước ảnh dựa trên viewport width */
+  }
+}

@@ -76,3 +76,14 @@
     justify-content: center;
     display: flex;
 }
+
+
+@media (max-width: 360px){
+    .About .AboutMe p{
+        font-size : 15px;
+    }
+    .Education p{
+        font-size: 12px;
+    }
+    
+}
