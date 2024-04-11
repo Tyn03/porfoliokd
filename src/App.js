@@ -23,9 +23,9 @@ function App() {
       
       
       <Routes>
-      <Route path="/porfoliokd" element={<Root />} />
-        <Route path="/porfoliokd/about" element={<About />} />
-        <Route path="/porfoliokd/projects" element={<Projects />} />
+      <Route path="/" element={<Root />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
         
       </Routes>
       </Router>
