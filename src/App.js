@@ -14,7 +14,7 @@ function App() {
 
 
     <div className="App">
-      <Router basename='/porfoliokd' >
+      <Router  >
 
       <Navbar/>
 
